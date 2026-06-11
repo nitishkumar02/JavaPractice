@@ -1,5 +1,6 @@
 package org.nkpractice;
 
+import java.util.function.Function;
 import java.util.function.Predicate;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -17,6 +18,9 @@ public class Main {
             System.out.println("i * i = " + (i * i));
             Predicate<Integer> isEven = n -> n % 2 == 0;
             System.out.println("Is i even? " + isEven.test(i));
+            Function<String ,Integer> ft = (s)-> s.length();
+            System.out.println(ft.apply("nk"));
+            
         }
     }
 }
