@@ -20,7 +20,9 @@ public class Main {
             System.out.println("Is i even? " + isEven.test(i));
             Function<String ,Integer> ft = (s)-> s.length();
             System.out.println(ft.apply("nk"));
+
             
         }
+        System.out.println("Goodbye!");
     }
 }
