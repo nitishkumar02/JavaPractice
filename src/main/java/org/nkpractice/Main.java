@@ -25,5 +25,6 @@ public class Main {
         }
         System.out.println("Goodbye!");
         System.out.println("Goodbye-Test-Git-Fetch--> fetch->update+merge!");
+         System.out.println("Goodbye_test-Git-Remote->Fetch->Merge");
     }
 }
