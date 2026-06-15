@@ -1,0 +1,105 @@
+//Git Commands
+    1  ls -l
+    2  pwd
+    3  git status
+    4  git --config
+    5  git -version
+    6  git -v
+    7  cd ..
+    8  cd ..
+    9  ls -l
+   10  cd 1.SPBOOT/
+   11  ls -l
+   12  cd Java_Learning
+   13  cd Java_Leanings/
+   14  ls -l
+   15  cd ..
+   16  mkdir LGit
+   17  ls -l
+   18  cd Lgit
+   19  ls -l
+   20  git status
+   21  git init -- initalize repository
+   22  ls -l
+   23  ls -a
+   24  ls -l .git
+   25  less HEAD
+   26  touch File1.txt
+   27  ls -l
+   28  git status
+   29  git add . -- add file
+   30  git status
+   31  git commit -m "first file" -- commit changes
+   32  git status
+   33  git branch
+   34  git log
+   35  git switch slave -- make a branch and switch to that
+   36  touch home.html
+   37  git add home.html
+   38  git commit -m "home file"
+   39  git log
+   40  git branch logout --  make a branch and switch to that
+   41  clear
+   42  git switch logout
+   43  touch account.html
+   44  git add account.html
+   45  git commit -m "account to logout branch"
+   46  git log
+   47  ls -l
+   48  git switch master
+   49  ls -l
+   50  git switch -c notfound
+   51  touch notfound.html
+   52  git commit -m "notfound" notfound.html
+   53  git add .
+   54  git commit -m "notfound"
+   55  git log
+   56  git switch master
+   57  ls -l
+   58  git merge logout ; --> merge the branch
+   59  ls -l
+   60  ll -ltr
+   61  clear
+   62  git -d branch logout ; --> delete the branch
+   63  git branch -d logout
+   64  git branch -d notfound
+   65  java -version
+   66  ls -l
+   67  vi home.html
+   68  history
+   69  clear
+   70  git switch notfound
+   71  ls -l
+   72  vi home.html
+   73  ls il
+   74  ls -l
+   75  less home.html
+   76  git switch master
+   77  ls -l
+   78  less home.html
+   79  git log
+   80  git status
+   81  git commit -m "modifed in master"
+   82  git add .
+   83  git commit -m "modifed in master"
+   84  git switch notfound
+   85  ls -l
+   86  less home.html
+   87  vi home.html
+   88  git add home.html
+   89  git commit -m "in logout branch"
+   90  git switch master
+   91  git log
+   92  git merge notfound
+   93  ls -l
+   94  less home.html
+   95  vi home.html
+   96  git status
+   97  git add home.html
+   98  git commit -m "merging conflict resolved"
+   99  git status
+  100  ls -l
+  101  git log
+  102  git branch -d notfound
+  103  clear
+  104  history
